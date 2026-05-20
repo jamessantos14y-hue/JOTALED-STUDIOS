@@ -1,0 +1,34 @@
+/* ===== CTA LUXURY ===== */
+
+.cta {
+    background: #f5f1eb;
+    padding: 180px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.cta-text h2 {
+    font-size: 5rem;
+    color: #111111;
+    margin-bottom: 30px;
+}
+
+.cta-text p {
+    font-size: 1.2rem;
+    color: #555555;
+    margin-bottom: 50px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 42px;
+    background: #111111;
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+}

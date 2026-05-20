@@ -1,0 +1,54 @@
+/* ===== BENEFÍCIOS LUXURY ===== */
+
+.beneficios {
+    background: #f5f1eb;
+    padding: 180px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.beneficios-title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.beneficios-title h2 {
+    font-size: 5rem;
+    color: #111111;
+    margin-bottom: 24px;
+}
+
+.beneficios-title p {
+    font-size: 1.2rem;
+    color: #555555;
+    max-width: 700px;
+    margin: auto;
+}
+
+.beneficios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    background: white;
+    padding: 60px 40px;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.6rem;
+    color: #111111;
+    margin-bottom: 24px;
+}
+
+.card p {
+    color: #666666;
+    line-height: 1.8;
+}

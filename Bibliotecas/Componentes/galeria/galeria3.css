@@ -1,0 +1,47 @@
+/* ===== GALERIA EDITORIAL ===== */
+
+.galeria {
+    background: white;
+    padding: 140px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.galeria-title {
+    margin-bottom: 90px;
+}
+
+.galeria-title h2 {
+    font-size: 5rem;
+    color: #111111;
+    margin-bottom: 24px;
+    max-width: 700px;
+}
+
+.galeria-title p {
+    font-size: 1.15rem;
+    color: #555555;
+    max-width: 600px;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.galeria-item:nth-child(1) {
+    grid-column: span 2;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 40px;
+    background: #f4f4f4;
+}

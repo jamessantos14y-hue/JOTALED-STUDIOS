@@ -1,7 +1,7 @@
-/* ===== BENEFÍCIOS EDITORIAL ===== */
+/* ===== PROVA SOCIAL EDITORIAL ===== */
 
-.beneficios {
-    background: #ffffff;
+.prova-social {
+    background: white;
     padding: 140px 0;
 }
 
@@ -11,46 +11,46 @@
     margin: auto;
 }
 
-.beneficios-title {
+.prova-title {
     margin-bottom: 90px;
 }
 
-.beneficios-title h2 {
+.prova-title h2 {
     font-size: 5rem;
     color: #111111;
-    max-width: 700px;
     margin-bottom: 24px;
+    max-width: 700px;
 }
 
-.beneficios-title p {
+.prova-title p {
     font-size: 1.15rem;
     color: #555555;
     max-width: 600px;
 }
 
-.beneficios-grid {
+.prova-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
-.card {
+.depoimento {
     background: #f4f4f4;
     padding: 50px;
     border-radius: 40px;
-    min-height: 320px;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-.card h3 {
-    font-size: 1.8rem;
+.depoimento h3 {
+    font-size: 1.7rem;
     color: #111111;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
-.card p {
+.depoimento p {
     color: #555555;
     line-height: 1.7;
 }

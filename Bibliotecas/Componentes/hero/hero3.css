@@ -1,0 +1,60 @@
+/* ===== HERO 3 — EDITORIAL / MODERNO ===== */
+
+.hero {
+    background: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero-text h1 {
+    font-family: Arial, sans-serif;
+    font-size: 6rem;
+    line-height: 0.95;
+    color: #111111;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #555555;
+    max-width: 520px;
+}
+
+.hero-btn {
+    margin-top: 50px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 42px;
+    background: #111111;
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img img {
+    width: 100%;
+    min-height: 650px;
+    object-fit: cover;
+    border-radius: 40px;
+    background: #d4d4d4;
+}

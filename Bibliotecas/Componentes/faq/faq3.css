@@ -1,0 +1,53 @@
+/* ===== FAQ EDITORIAL ===== */
+
+.faq {
+    background: #ffffff;
+    padding: 140px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.faq-title {
+    margin-bottom: 80px;
+}
+
+.faq-title h2 {
+    font-size: 5rem;
+    color: #111111;
+    margin-bottom: 24px;
+    max-width: 700px;
+}
+
+.faq-title p {
+    font-size: 1.15rem;
+    color: #555555;
+    max-width: 600px;
+}
+
+.faq-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.faq-item {
+    background: #f4f4f4;
+    padding: 45px;
+    border-radius: 36px;
+    min-height: 260px;
+}
+
+.faq-item h3 {
+    font-size: 1.7rem;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.faq-item p {
+    color: #555555;
+    line-height: 1.7;
+}

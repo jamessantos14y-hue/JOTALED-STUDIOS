@@ -1,0 +1,42 @@
+/* ===== HEADER LUXURY ===== */
+
+.header {
+    background: #f5f1eb;
+    padding: 40px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #111111;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px 34px;
+    background: #111111;
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+}
