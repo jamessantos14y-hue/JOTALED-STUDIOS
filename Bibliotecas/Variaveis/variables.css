@@ -1,0 +1,17 @@
+/* === VARIAVÉIS GLOBAIS === */
+:root {
+    /* === CORES === */
+    --cor-fundo: #ffffff;
+    --superficie: #e8e8e8;
+    --cor-primaria: #002fe9;
+    --cor-texto: #000000;
+    --cor-texto-suave: #202020;
+    /* === TIPOGRAFIA === */
+    --fonte-titulo: Arial, sans-serif;
+    --fonte-subtitulo: Arial. sans-serif;
+    --fonte-texto: sans-serif;
+    --tamanho-titulo: 4rem;
+    --tamanho-subtitulo: 2rem;
+    --tamanho-texto: 1.1rem;
+} 
+

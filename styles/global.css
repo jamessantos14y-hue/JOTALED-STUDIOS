@@ -1,0 +1,134 @@
+/* ===== RESET ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+
+body {
+  font-family: var(--fonte-principal);
+
+  background: var(--cor-fundo);
+
+  color: var(--cor-texto);
+}
+
+/* ===== CONTAINER ===== */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+
+  margin: auto;
+}
+
+/* ===== SECTION ===== */
+
+section {
+  padding: var(--espacamento-secao) 0;
+}
+
+/* ===== TIPOGRAFIA ===== */
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: var(--tamanho-titulo);
+}
+
+p {
+  color: var(--cor-texto-suave);
+
+  line-height: 1.7;
+
+  font-size: var(--tamanho-texto);
+}
+
+/* ===== IMAGENS ===== */
+
+img {
+  max-width: 100%;
+
+  display: block;
+}
+
+/* ===== LINKS ===== */
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+/* ===== LISTAS ===== */
+
+ul {
+  list-style: none;
+}
+
+/* ===== BOTÕES ===== */
+
+.btn-primario,
+.btn-secundario {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 28px;
+
+  border-radius: var(--borda-pequena);
+
+  font-weight: 600;
+
+  transition: all 0.2s ease;
+}
+
+.btn-primario {
+  background: var(--cor-primaria);
+
+  color: white;
+
+  box-shadow: var(--sombra-primaria);
+}
+
+.btn-secundario {
+  background: var(--cor-superficie);
+
+  border: 1px solid var(--cor-borda);
+
+  color: white;
+}
+
+/* ===== CARDS ===== */
+
+.card {
+  background: var(--cor-superficie);
+
+  border: 1px solid var(--cor-borda);
+
+  border-radius: var(--borda-media);
+
+  padding: 32px;
+}
+
+/* ===== RESPONSIVO ===== */
+
+@media (max-width: 900px) {
+
+  :root {
+
+    --tamanho-titulo: 3rem;
+
+    --espacamento-secao: 100px;
+
+  }
+
+}
