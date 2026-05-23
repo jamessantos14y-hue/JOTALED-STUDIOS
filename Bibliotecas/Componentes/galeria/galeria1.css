@@ -1,14 +1,14 @@
-/* ===== GALERIA TECH ===== */
+/* ===================================================== */
+/* =================== GALERIA TECH ==================== */
+/* ===================================================== */
 
 .galeria {
     background: #020617;
     padding: 140px 0;
 }
 
-.container {
-    width: 90%;
+.galeria .container {
     max-width: 1300px;
-    margin: auto;
 }
 
 .galeria-title {
@@ -33,7 +33,6 @@
 }
 
 .galeria-item img {
-    width: 100%;
     height: 420px;
     object-fit: cover;
     border-radius: 24px;

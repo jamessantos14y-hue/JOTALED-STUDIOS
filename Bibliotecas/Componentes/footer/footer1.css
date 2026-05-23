@@ -1,14 +1,13 @@
-/* ===== FOOTER TECH ===== */
+/* ===================================================== */
+/* ===================== FOOTER TECH =================== */
+/* ===================================================== */
 
 .footer {
     background: #020617;
     padding: 100px 0;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
+.footer .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 60px;
@@ -23,7 +22,6 @@
 .footer-logo p {
     color: #94a3b8;
     max-width: 300px;
-    line-height: 1.7;
 }
 
 .footer-links,
@@ -36,5 +34,4 @@
 .footer-links a,
 .footer-social a {
     color: #94a3b8;
-    text-decoration: none;
 }

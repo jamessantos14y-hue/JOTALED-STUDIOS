@@ -1,4 +1,6 @@
-/* ===== HERO TECH ===== */
+/* ===================================================== */
+/* ===================== HERO TECH ===================== */
+/* ===================================================== */
 
 .hero {
     background: #0a0f1c;
@@ -7,10 +9,7 @@
     align-items: center;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
+.hero .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -18,14 +17,12 @@
 }
 
 .hero-text h1 {
-    font-family: Arial, sans-serif;
     font-size: 5rem;
     color: #ffffff;
     margin-bottom: 24px;
 }
 
 .hero-text p {
-    font-family: sans-serif;
     font-size: 1.1rem;
     color: #94a3b8;
     max-width: 500px;
@@ -35,17 +32,7 @@
     margin-top: 40px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 16px 34px;
-    background: #2563eb;
-    color: white;
-    text-decoration: none;
-    border-radius: 999px;
-}
-
 .hero-img img {
-    width: 100%;
     min-height: 500px;
     border-radius: 24px;
     background: #111827;
