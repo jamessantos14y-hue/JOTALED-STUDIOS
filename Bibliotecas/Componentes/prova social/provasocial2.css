@@ -5,10 +5,8 @@
     padding: 180px 0;
 }
 
-.container {
-    width: 90%;
+.prova-social .container {
     max-width: 1100px;
-    margin: auto;
 }
 
 .prova-title {
@@ -48,5 +46,4 @@
 
 .depoimento p {
     color: #666666;
-    line-height: 1.8;
 }

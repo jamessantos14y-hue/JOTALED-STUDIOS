@@ -5,10 +5,7 @@
     padding: 140px 0;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
+.footer .container {
     display: flex;
     justify-content: space-between;
     gap: 80px;
@@ -24,7 +21,6 @@
 .footer-logo p {
     color: #555555;
     max-width: 350px;
-    line-height: 1.8;
 }
 
 .footer-links,
@@ -37,5 +33,4 @@
 .footer-links a,
 .footer-social a {
     color: #555555;
-    text-decoration: none;
 }

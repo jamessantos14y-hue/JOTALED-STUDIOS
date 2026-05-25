@@ -6,10 +6,9 @@
     border-bottom: 1px solid #e5e5e5;
 }
 
-.container {
-    width: 90%;
+.header .container {
     max-width: 1400px;
-    margin: auto;
+
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
@@ -23,12 +22,11 @@
 
 .nav {
     display: flex;
-    gap: 40px;
     justify-content: center;
+    gap: 40px;
 }
 
 .nav a {
-    text-decoration: none;
     color: #555555;
     font-size: 1rem;
 }
@@ -38,11 +36,8 @@
     justify-content: flex-end;
 }
 
-.btn {
-    display: inline-block;
+.header .btn {
     padding: 14px 28px;
     background: #111111;
-    color: white;
-    text-decoration: none;
     border-radius: 14px;
 }

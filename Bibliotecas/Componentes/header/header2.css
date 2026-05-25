@@ -5,10 +5,9 @@
     padding: 40px 0;
 }
 
-.container {
-    width: 90%;
+.header .container {
     max-width: 1300px;
-    margin: auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,16 +26,10 @@
 }
 
 .nav a {
-    text-decoration: none;
     color: #555555;
     font-size: 1rem;
 }
 
-.btn {
-    display: inline-block;
-    padding: 16px 34px;
+.header .btn {
     background: #111111;
-    color: white;
-    text-decoration: none;
-    border-radius: 999px;
 }

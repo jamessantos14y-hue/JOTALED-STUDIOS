@@ -5,10 +5,8 @@
     padding: 180px 0;
 }
 
-.container {
-    width: 90%;
+.cta .container {
     max-width: 900px;
-    margin: auto;
     text-align: center;
 }
 
@@ -24,11 +22,7 @@
     margin-bottom: 50px;
 }
 
-.btn {
-    display: inline-block;
+.cta .btn {
     padding: 20px 42px;
     background: #111111;
-    color: white;
-    text-decoration: none;
-    border-radius: 999px;
 }

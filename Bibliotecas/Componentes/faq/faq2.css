@@ -5,10 +5,8 @@
     padding: 180px 0;
 }
 
-.container {
-    width: 90%;
+.faq .container {
     max-width: 900px;
-    margin: auto;
 }
 
 .faq-title {
@@ -47,5 +45,4 @@
 
 .faq-item p {
     color: #666666;
-    line-height: 1.8;
 }

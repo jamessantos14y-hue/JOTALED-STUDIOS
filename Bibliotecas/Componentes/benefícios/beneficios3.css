@@ -5,10 +5,8 @@
     padding: 140px 0;
 }
 
-.container {
-    width: 90%;
+.beneficios .container {
     max-width: 1300px;
-    margin: auto;
 }
 
 .beneficios-title {
@@ -39,6 +37,7 @@
     padding: 50px;
     border-radius: 40px;
     min-height: 320px;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -52,5 +51,4 @@
 
 .card p {
     color: #555555;
-    line-height: 1.7;
 }
